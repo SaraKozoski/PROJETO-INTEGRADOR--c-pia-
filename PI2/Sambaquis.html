@@ -1,69 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens (1)/favicon.ico">
-    <title>Leitura e interpretação de gráficos</title>
-    <link rel="stylesheet" href="estilo do conteudo/estilo.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens (1)/favicon.ico">
+        <title>Leitura e interpretação de gráficos</title>
+        <link rel="stylesheet" href="estilo do conteudo/estilo.css">
 
-    <style>
+        <style>
         @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
     </style>
-</head>
+    </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="Imagens do site/lapis.png" alt="logo">
-            </a>
-            <div class="titulo-site">
-                <h1>Estudos de matemática</h1>
-            </div>
-        </div>
-
-        
-        <div id="menu">
-            <div id="menu-bar" onclick="menuOnClick()">
-                <div id="bar1" class="bar"> </div>
-                <div id="bar2" class="bar"> </div>
-                <div id="bar3" class="bar"> </div>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Imagens do site/lapis.png" alt="logo">
+                </a>
+                <div class="titulo-site">
+                    <h1>Estudos de matemática</h1>
+                </div>
             </div>
 
-            <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="estatisticas.html">Estatística</a></li>
-                    <li><a href="geometria.html">Geometria</a></li>
-                    <li><a href="graficos.html">Gráficos</a></li>
-                    <li><a href="porcentagem.html">Porcentagem</a></li>
-                    <li><a href="prismas.html">Prismas</a></li>
-                    <li><a href="trigonometria.html">Trigonometria</a></li>
-                    <li><a href="Sambaquis.html">Sambaqui</a></li>
-                </ul>
-            </nav>
-        </div>
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"> </div>
+                    <div id="bar2" class="bar"> </div>
+                    <div id="bar3" class="bar"> </div>
+                </div>
 
-        <div class="menu-bg" id="menu-bg"> </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="estatisticas.html">Estatística</a></li>
+                        <li><a href="geometria.html">Geometria</a></li>
+                        <li><a href="graficos.html">Gráficos</a></li>
+                        <li><a href="porcentagem.html">Porcentagem</a></li>
+                        <li><a href="prismas.html">Prismas</a></li>
+                        <li><a href="trigonometria.html">Trigonometria</a></li>
+                        <li><a href="Sambaquis.html">Sambaqui</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-        <script>
+            <div class="menu-bg" id="menu-bg"> </div>
+
+            <script>
             function menuOnClick() {
                 document.getElementById("menu-bar").classList.toggle("change");
                 document.getElementById("nav").classList.toggle("change");
                 document.getElementById("menu-bg").classList.toggle("change-bg");
             }
         </script>
-    </header>
-    <main>
+        </header>
+        <main>
+            <div class="folha">
+                <h1>TRABALHO SAMBAQUI</h1>
+                <div class="texto-principal">
+                    <h3 id="paragrafo-inicial">1 O que é o sambaqui?</h3>
+                    <p>
+                        Os sambaquis eram locais arqueológicos pertencentes a
+                        uma sociedade pré-histórica de
+                        pescadores, coletores e caçadores. Uma pesquisa foi
+                        realizada na planície costeira de Joinville com o
+                        objetivo de caracterizá-los geologicamente e
+                        evolutivamente, bem como promover a conservação desses
+                        locais; foram coletadas 91 amostras de sedimentos em 71
+                        pontos distintos para análise (OLIVEIRA,
+                        2000).
+                    </p>
+                    <h3 id="paragrafo-inicial">2 Localização dos Sambaquis em nossa região “Deve conter
+                        mapa com indicação de ao menos 5
+                        locais onde se encontram sambaquis. Pode ser tanto de
+                        Joinville ou Araquari ou São Francisco do
+                        sul ou Barra do Sul,etc.”
+                    </h3>
+                    <p id="titulo-imagem">Figura 1- Mapa dos Sambaquis na região</p>
+                    <div id="titulo-imagem">
+                        <img src="img de estudos/imagem1_sambaqui.png"
+                            alt="Mapa sambaqui">
+                    </div>
+                    <p id="autor">Fonte:Bol. Mus. Para. Emílio Goeldi,2010</p>
+                    <h3  id="paragrafo-inicial">3 O povo que vivia no Sambaqui era da espécie Homo
+                        Sapiens? Explique.
+                    </h3>
+                    <p >Sim, eles eram Homo Sapiens. Sabe-se disso já que o Homo
+                        Sapiens foi a
+                        única espécie humana que existiu na América (KLUEGER,
+                        2004).
+                    </p>
+                    <h3 id="paragrafo-inicial">4 Como esse povo chegou até a América? E, pelos
+                        elementos que existem na arqueologia, quando
+                        habitaram a região da Baía da Babitonga?
+                    </h3>
+                    <p >De acordo com pesquisas arqueológicas, o homem habita o
+                        sul da América quando ocorre o
+                        “ótimo climático”, ou seja, a mudança na temperatura do
+                        planeta, passando a ter o clima próximo ao que
+                        temos hoje. Vários grupos a partir daí se distribuem por
+                        esse território (Klueger, 2004). Estudos
+                        arqueológicos apontam que os povos sambaquianos viveram
+                        na Baía da Babitonga há mais de três mil
+                        anos atrás (HINSCHING, 2019).
+                    </p>
+                    <h3 id="paragrafo-inicial">5 Qual era a principal fonte de alimentação deles? Como
+                        se sabe essa informação?
+                    </h3>
+                    <p >A principal fonte de alimentação deles tinha abundância
+                        de pesca e das conchas, com fartura de
+                        mariscos, berbigões etc (KLUEGER, 2004). Se sabe disso
+                        por conta da presença de restos de peixes e
+                        moluscos nos Sambaquis e evidências na arcada dentária
+                        de esqueletos enterrados nos Sambaquis.
+                    </p>
+                    <h3 id="paragrafo-inicial">6 O que é um zoólito: Explique e apresente alguma foto
+                        que contenha um exemplo de um deles.
+                    </h3>
+                    <p >Zoólito é a escultura de um animal. Em regiões próximas
+                        ao Sambaqui é muito comum encontrar
+                        zoólitos de aves, peixes etc (KLUEGER, 2004).
+                    </p>
+                    <p id="citacao-direta">“Há um detalhe muito interessante nos
+                        zoólitos, antropomorfos : eles sempre têm esculpida uma
+                        cavidade ventral, às vezes quadradas, às vezes
+                        retangulares, mas sempre bem feitas e polidas. Até
+                        hoje não sabemos para que se faziam tais cavidades.”
+                        (Klueger, 2004)
+                    </p>
+                    <p id="titulo-imagem">Figura 2- Zoólito em forma de peixe</p>
+                    <div id="titulo-imagem">
+                        <img src="img de estudos/imagem2_sambaqui.png"
+                            alt="Zoólito de peixe">
+                    </div>
+                    <p id="autor">Fonte:Museu Nacional - UFRJ, ?.</p>
 
-    </main>
+                    <h3  id="paragrafo-inicial">7 Todo sambaqui contém sepultamentos? Explique.</h3>
+                    <p  >Os falecidos eram adornados com colares feitos de conchas
+                        e acompanhados de diversos objetos como
+                        pontas de ossos e machados de pedra. Além disso, é comum
+                        encontrar dentes e vértebras de tubarões,
+                        macacos, porcos-do-mato e outros animais entre os
+                        esqueletos. As sepulturas eram meticulosamente
+                        preparadas e muitas vezes revestidas com argila, areia,
+                        corantes, palha e madeira. Existem covas
+                        individuais e coletivas, com corpos dispostos em posição
+                        estendida ou fetal e muitos deles cobertos com
+                        pigmento vermelho.(GASPAR,1999)
+                    </p>
+                    <h3  id="paragrafo-inicial">8 Existem outras partes do Brasil e do Mundo que
+                        contenham construções humanas parecidas com
+                        as dos Sambaquis da região da Baía da Babitonga?
+                        Explique.
+                    </h3>
+                    <p  >Embora os casos mais conhecidos de sambaquis estejam
+                        localizados no litoral brasileiro, como em
+                        Santa Catarina, há evidências dessas formações
+                        geológicas em outras partes do mundo, como na Europa,
+                        América e África (CALAZANS, 2016).
+                    </p>
+                    <p>A palavra "sambaqui" tem origem na língua tupi-guarani e
+                        significa "monte de conchas". Os povos que
+                        habitavam as regiões costeiras e criaram essas
+                        estruturas são conhecidos como povos sambaquieiros
+                        (CALAZANS, 2016).
+                    </p>
+                    <p>
+                        Essas comunidades pré-históricas tinham uma relação
+                        íntima com o meio ambiente em que viviam e
+                        dependiam dos recursos naturais fornecidos pelo mar e
+                        pela costa. A construção dos sambaquis era uma
+                        forma de aproveitar os restos de conchas e outros
+                        materiais para a construção de habitações e para a
+                        realização de práticas religiosas e funerárias. O estudo
+                        dessas estruturas é fundamental para
+                        compreendermos a história e a cultura desses povos
+                        antigos (CALAZANS, 2016).
+                    </p>
+                    <h3  id="paragrafo-inicial">9 Todos os sambaquis encontrados estão intactos ou
+                        alguns já foram destruídos? Como isso
+                        aconteceu?
+                    </h3>
+                    <p >
+                        Com relação à extinção dos povos sambaquieiros, existem
+                        diversas teorias propostas por
+                        pesquisadores. Uma delas sugere que os sambaquieiros
+                        foram encontrados pelos índios tupi-guaranis e
+                        exterminados em um conflito violento. No entanto, outras
+                        teorias argumentam que houve uma
+                        convivência pacífica e até mesmo uma miscigenação entre
+                        esses dois grupos, o que teria levado à
+                        assimilação da cultura sambaquieira pela cultura
+                        indígena.
+                    </p>
+                    <p>
+                        Além disso, a escassez de mariscos, principal fonte de
+                        subsistência dos sambaquieiros, também é
+                        apontada como uma possível causa para o desaparecimento
+                        desses povos. A coleta predatória e excessiva
+                        desses animais para alimentar a população teria levado
+                        ao esgotamento dos recursos disponíveis, tornando
+                        a vida nessas áreas costeiras cada vez mais difícil.
+                    </p>
+                    <p>
+                        Independentemente das razões exatas, a extinção dos
+                        povos sambaquieiros é um exemplo de como a
+                        relação entre os seres humanos e o meio ambiente pode
+                        ter consequências drásticas e irreversíveis para as
+                        comunidades que dependem desses recursos naturais
+                        (MILAN,2009).
+                    </p>
+                    <h3 id="paragrafo-inicial">10 Qual a importância de preservar os sambaquis?</h3>
+                    <p >
+                        A importância dos sambaquis para a arqueologia é
+                        inegável, pois eles representam uma das poucas
+                        fontes de informação sobre a cultura dos povos
+                        sambaquieiros. Por meio da análise dessas estruturas, é
+                        possível compreender a origem, a evolução cultural e a
+                        relação desses povos com o ambiente em que
+                        viviam.
+                    </p>
+                    <p>
+                        Assim, os sambaquis fornecem valiosas informações sobre
+                        a vida dessas comunidades pré-históricas,
+                        suas práticas religiosas e funerárias, sua alimentação,
+                        tecnologia e organização social. Além disso, o
+                        estudo dos sambaquis também pode ajudar a traçar
+                        conexões entre diferentes povos que habitavam as
+                        regiões costeiras e estuarinas em diferentes épocas e
+                        lugares (ASSUMPÇÃO,2022).
+                    </p>
+                </div>
+            </div>
+        </main>
 
-    <footer class="footer">
-        <p>Copyright © – Estudos de matemática | Todos os direitos reservados</p>   
-    </footer>
-</body>
+        <footer class="footer">
+            <p>Copyright © – Estudos de matemática | Todos os direitos
+                reservados</p>
+        </footer>
+    </body>
 
 </html>
