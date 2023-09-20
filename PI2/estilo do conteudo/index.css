@@ -1,0 +1,77 @@
+.header {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #091b40ad;
+    background-color: #010326;
+    font-family: agdasima, sans-serif, bold;
+    font-size: 20px;
+    color: #F0CC04;
+    margin-left: -20px;
+    width: 99.50%;
+}
+#letra {
+    margin-top: -60px;
+}
+img {
+    margin-left: -545px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    font-family: agdasima, sans-serif, bold;
+    font-size: 15px;
+    color: #fdfdfd;
+    
+
+}
+a {
+    color:#fdfdfd;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #F0CC04;
+
+}
+.grid-item {
+    padding: 1rem;
+    border: 1px solid #010326;
+    
+}
+
+.grid-item2 {
+    padding: 2rem;      
+    border: 1px solid #010326;
+
+
+}
+
+.grid-sambaqui {
+    padding: 2rem;
+    width: 305%;
+    text-align: center;
+    border: 1px solid #010326;
+
+
+}
+
+.footer {
+    background-color: #010326;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 96.5%;
+    margin-left: -10px;
+
+
+}
+
+
+body {
+    background-color: #091b40ad;
+}
