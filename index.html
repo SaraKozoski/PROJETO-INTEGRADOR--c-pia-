@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo do conteudo/index.css">
     <link rel="shortcut icon" href="imagens (1)/favicon.ico" type="image/x-icon">
     <title>Início</title>
+    
 </head>
 
 <body>
@@ -15,6 +16,37 @@
         
     <header class="header">
         <h1><img src="Imagens do site/lapis.png" alt="Logo"><div id="letra">Estudos de matemática</div></h1>
+
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"> </div>
+                <div id="bar2" class="bar"> </div>
+                <div id="bar3" class="bar"> </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="estatisticas.html">Estatística</a></li>
+                    <li><a href="geometria.html">Geometria</a></li>
+                    <li><a href="graficos.html">Gráficos</a></li>
+                    <li><a href="porcentagem.html">Porcentagem</a></li>
+                    <li><a href="prismas.html">Prismas</a></li>
+                    <li><a href="trigonometria.html">Trigonometria</a></li>
+                    <li><a href="Sambaquis.html">Sambaqui</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"> </div>
+
+        <script>
+        function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+    </script>
     </header>
 
 
