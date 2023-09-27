@@ -167,11 +167,11 @@ main{
   margin-right: 50px;
 }
 
-#paragrafo-inicial{
+.paragrafo-inicial{
   margin-top: 1.5cm;
 }
 
-#titulo-imagem{
+.titulo-imagem{
   text-align: center;
   margin-top: 1.5cm;
 }
@@ -181,7 +181,7 @@ main{
   text-align: center;
 }
 
-#citacao-direta{
+.citacao-direta{
   text-align: justify;
   font-size: 12px;
   margin-top: 1.5cm;

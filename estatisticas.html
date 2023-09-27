@@ -1,171 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="imagens (1)/favicon.ico">
-        <title>Leitura e interpretação de gráficos</title>
-        <link rel="stylesheet" href="estilo do conteudo/estilo.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens(1)/favicon.ico">
+    <title>Leitura e interpretação de gráficos</title>
+    <link rel="stylesheet" href="estilo_do_conteudo/estilo.css">
 
-        <style>
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
     </style>
-    </head>
+</head>
 
-    <body>
-        <header>
-            <div class="logo">
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="imagens_do_site/lapis.png" alt="logo">
+            </a>
+            <div class="titulo-site">
                 <a href="index.html">
-                    <img src="Imagens do site/lapis.png" alt="logo">
+                    <h1>Estudos de matemática</h1>
                 </a>
-                <div class="titulo-site">
-                    <a href="index.html">
-                        <h1>Estudos de matemática</h1>
-                    </a>
-                    </div>
-                    
-                </div>
             </div>
-            <div id="menu">
-                <div id="menu-bar" onclick="menuOnClick()">
-                    <div id="bar1" class="bar"> </div>
-                    <div id="bar2" class="bar"> </div>
-                    <div id="bar3" class="bar"> </div>
-                </div>
-
-                <nav class="nav" id="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="estatisticas.html">Estatística</a></li>
-                        <li><a href="geometria.html">Geometria</a></li>
-                        <li><a href="graficos.html">Gráficos</a></li>
-                        <li><a href="porcentagem.html">Porcentagem</a></li>
-                        <li><a href="prismas.html">Prismas</a></li>
-                        <li><a href="trigonometria.html">Trigonometria</a></li>
-                        <li><a href="Sambaquis.html">Sambaqui</a></li>
-                    </ul>
-                </nav>
+        </div>
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"> </div>
+                <div id="bar2" class="bar"> </div>
+                <div id="bar3" class="bar"> </div>
             </div>
 
-            <div class="menu-bg" id="menu-bg"> </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="estatisticas.html">Estatística</a></li>
+                    <li><a href="geometria.html">Geometria</a></li>
+                    <li><a href="graficos.html">Gráficos</a></li>
+                    <li><a href="porcentagem.html">Porcentagem</a></li>
+                    <li><a href="prismas.html">Prismas</a></li>
+                    <li><a href="trigonometria.html">Trigonometria</a></li>
+                    <li><a href="Sambaquis.html">Sambaqui</a></li>
+                </ul>
+            </nav>
+        </div>
 
-            <script>
+        <div class="menu-bg" id="menu-bg"> </div>
+
+        <script>
             function menuOnClick() {
                 document.getElementById("menu-bar").classList.toggle("change");
                 document.getElementById("nav").classList.toggle("change");
                 document.getElementById("menu-bg").classList.toggle("change-bg");
             }
         </script>
-        </header>
-        <main>
-            <div class="folha">
-                <div class="texto-principal">
-                    <h1>5 ESTATÍSTICAS</h1>
-                    <p id="paragrafo-inicial">
-                        Dividida em descritiva e inferencial, a estatística da
-                        matemática responsável por relacionar fatos e números,
-                        onde se faz presente um montante de métodos,
-                        possibilitando-nos a coletar e analisar dados, assim
-                        realizando a interpretação dos mesmos.
-                    </p>
-                    <p id="citacao-direta"> "Para que possamos analisar dados,
-                        apurações e observações, usamos a estatística. Ela é
-                        comumente usada em cenários políticos como intenção de
-                        votos ou rejeição de uma mudança na constituição."
-                        (OLIVEIRA, 2017)
+    </header>
+    <main>
+        <div class="folha">
+            <div class="texto-principal">
+                <h1>5 ESTATÍSTICAS</h1>
+                <p class="paragrafo-inicial">
+                    Dividida em descritiva e inferencial, a estatística da
+                    matemática responsável por relacionar fatos e números,
+                    onde se faz presente um montante de métodos,
+                    possibilitando-nos a coletar e analisar dados, assim
+                    realizando a interpretação dos mesmos.
+                </p>
+                <p class="citacao-direta"> "Para que possamos analisar dados,
+                    apurações e observações, usamos a estatística. Ela é
+                    comumente usada em cenários políticos como intenção de
+                    votos ou rejeição de uma mudança na constituição."
+                    (OLIVEIRA, 2017)
 
+                </p>
+                <p class="paragrafo-inicial">A melhor forma de indicarmos um
+                    problema é através da estatística, sendo um dos o índice
+                    de desemprego, que é um indicador facilmente
+                    representado em uma estatística.
+                </p>
+                <div>
+                    <p class="titulo-imagem"> Gráfico 1 - índice de desemprego
+                        no Brasil comparado a São Paulo.
                     </p>
-                    <p id="paragrafo-inicial">A melhor forma de indicarmos um
-                        problema é através da estatística, sendo um dos o índice
-                        de desemprego, que é um indicador facilmente
-                        representado em uma estatística.
-                    </p>
-                    <div>
-                        <p id="titulo-imagem"> Gráfico 1 - índice de desemprego
-                            no Brasil comparado a São Paulo.
-                        </p>
-                        <div id="titulo-imagem">
-                            <img src="img de estudos/imagem9.png"
-                                alt="índice de desemprego
+                    <div class="titulo-imagem">
+                        <img src="img_de_estudos/imagem9.png" alt="índice de desemprego
                                 no Brasil comparado a São Paulo.">
-                        </div>
-                        <p id="autor">Fonte: Brasil de Fato(2020).
-                        </p>
                     </div>
-                    <p id="citacao-direta">"Para que possamos compreender o
-                        nosso
-                        cotidiano, devemos usar estatísticas, usando o método
-                        estatístico, onde, primeiramente, deveremos identificar
-                        um padrão. Em seguida, desenvolvemos um planejamento,
-                        coletando dados relacionados ao padrão identificado.
-                        Após isso, organizamos determinados dados, observando e
-                        desenvolvendo uma resposta a partir da análise de. (Toda
-                        Matéria. 2021)"
+                    <p id="autor">Fonte: Brasil de Fato(2020).
+                    </p>
+                </div>
+                <p class="citacao-direta">"Para que possamos compreender o
+                    nosso
+                    cotidiano, devemos usar estatísticas, usando o método
+                    estatístico, onde, primeiramente, deveremos identificar
+                    um padrão. Em seguida, desenvolvemos um planejamento,
+                    coletando dados relacionados ao padrão identificado.
+                    Após isso, organizamos determinados dados, observando e
+                    desenvolvendo uma resposta a partir da análise de. (Toda
+                    Matéria. 2021)"
+
+                </p>
+
+                <h2 class="paragrafo-inicial">5.1 TIPOS DE ESTATÍSTICAS</h2>
+                <h3 class="paragrafo-inicial"> 5.1.1 Estatística descritiva:</h3>
+
+                <p class="citacao-direta">"A estatística pode ser demonstrada
+                    de
+                    várias formas, destacando-se a estatística descritiva,
+                    onde o objetivo é epitomar variações em série, de
+                    descritiva, onde o objeto é epitomar variações em série,
+                    de mesma natureza, que nos permitirá uma visão geral
+                    desses valores, onde iremos organizar os dados, sendo
+                    eles organizados através de medidas, medidas descritivas
+                    e tabelas. (TAINAH, 2019)"</p>
+
+                <p class="titulo-imagem"> Gráfico 2 - Exemplo de uma
+                    estatística descritiva </p>
+                <div>
+                    <div class="titulo-imagem">
+                        <img src="img_de_estudos/imagem10.png" alt=" Exemplo de uma estatística descritiva">
+                    </div>
+                    <p id="autor">Fonte: Infoescola(s.d)
+                    </p>
+                </div>
+                <h3 class="paragrafo-inicial"> 5.1.2 Estatística inferencial:</h3>
+
+                <p class="citacao-direta">Quando não é possível entendermos uma
+                    amostra aleatória dos dados, usamos uma estatística
+                    inferencial. Ela é valiosíssima quando não nos é
+                    conveniente
+                    examinarmos cada membro de uma população.(MINITAB.
+                    [s.d])
+                </p>
+                <div>
+                    <p class="titulo-imagem"> Gráfico 3 - Exemplo de
+                        estatística inferencial
 
                     </p>
-
-                    <h2 id="paragrafo-inicial">5.1 TIPOS DE ESTATÍSTICAS
-                    </h2>
-                    <h3><p id="paragrafo-inicial">5.1.1 Estatística descritiva:
-                        </p></h3>
-
-                    <p id="citacao-direta">"A estatística pode ser demonstrada
-                        de
-                        várias formas, destacando-se a estatística descritiva,
-                        onde o objetivo é epitomar variações em série, de
-                        descritiva, onde o objeto é epitomar variações em série,
-                        de mesma natureza, que nos permitirá uma visão geral
-                        desses valores, onde iremos organizar os dados, sendo
-                        eles organizados através de medidas, medidas descritivas
-                        e tabelas. (TAINAH, 2019)"</p>
-
-                    <p id="titulo-imagem"> Gráfico 2 - Exemplo de uma
-                        estatística descritiva
-                    </p>
-                    <div>
-                        <div id="titulo-imagem">
-                            <img src="img de estudos/imagem10.png"
-                                alt=" Exemplo de uma estatística descritiva">
-                        </div>
-                        <p id="autor">Fonte: Infoescola(s.d)
-
-                        </p>
+                    <div class="titulo-imagem">
+                        <img src="img_de_estudos/imagem11.png" alt=" Exemplo de estatística inferencial">
                     </div>
-                    <h3><p id="paragrafo-inicial">5.1.2 Estatística inferencial:
+                    <p id="autor">Fonte: Amazon AWS(s.d).</p>
+                </div>
 
-                        </p></h3>
+    </main>
 
-                    <p id="citacao-direta">Quando não é possível entendermos uma
-                        amostra aleatória dos dados, usamos uma estatística
-                        inferencial. Ela é valiosíssima quando não nos é
-                        conveniente
-                        examinarmos cada membro de uma população.(MINITAB.
-                        [s.d])
-                    </p>
-                    <div>
-                        <p id="titulo-imagem"> Gráfico 3 - Exemplo de
-                            estatística inferencial
+    <footer class="footer">
+        <p>Copyright © – Estudos de matemática | Todos os
+            direitos
+            reservados</p>
+    </footer>
+</body>
 
-                        </p>
-                        <div id="titulo-imagem">
-                            <img src="img de estudos/imagem11.png"
-                                alt=" Exemplo de estatística inferencial
-                            ">
-                        </div>
-                        <p id="autor">Fonte: Amazon AWS(s.d).
-
-                        </p>
-                    </div>
-
-                </main>
-
-                <footer class="footer">
-                    <p>Copyright © – Estudos de matemática | Todos os
-                        direitos
-                        reservados</p>
-                </footer>
-            </body>
-
-        </html>
+</html>
