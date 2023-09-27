@@ -1,8 +1,6 @@
-i = 0;
-$(window).load(
-    function() { // Garante que todo o site seja carregado
-    $('#status').fadeOut(); // primeiro desaparecerá a animação de carregamento
-    $('#preloader').delay(350).fadeOut('slow'); // desaparecerá o DIV branco que cobre o site.
-    $('body').delay(350).css({'overflow':'visible'});    
-  })
+function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
   
