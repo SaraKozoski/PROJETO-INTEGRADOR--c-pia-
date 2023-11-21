@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens(1)/favicon.ico">
+    <link rel="stylesheet" href="estilo_do_conteudo/estilo.css">
+
+    <title>Contato</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Vidaloka&display=swap');
+        form {
+            /*background-image: linear-gradient(black,grey);*/
+            background-color: #010326e5;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+            text-align: center;
+            margin-left: 25%;
+            margin-top: 4%;
+            border-radius: 10px;
+        }
+
+        fieldset {
+            margin-top: 5%;
+            border: none;
+        }
+        
+        .mensagem {
+            width: 350px;
+        }
+        input{
+            border: none;
+            background: none;
+            border-bottom: 2px solid #b8b8b8;
+            outline: none;
+        }
+        input[type=text]{
+            color: white;
+        }
+
+        #form-submit-button {
+            background: #16336ead;
+            color: white;
+            border: #000000;
+            border-radius: 5%;
+            height: 50px;
+            width: 100px;
+            font-family: arial, sans-serif;
+            margin-bottom: 3%;
+            margin-top: 3%;
+        }
+        #form-submit-button:hover{
+            background-color: rgb(67, 36, 150);
+            transition: all 0.25s ease;
+            transform: scale(1.1); 
+        }
+
+        .titulo-pergunta{
+            margin-bottom: 10px;
+        }
+        .espaco-select{
+            margin-right: 3%;
+        }
+        #espaçamento-cima-form{
+            margin-top: 3%;
+        }
+        #contato{
+            color: #F0CC04;
+            text-align: center;
+            font-family: Agdasima;
+            font-size: 85px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="imagens_do_site/lapis.png" alt="logo">
+            </a>
+            <div class="titulo-site">
+                <a href="index.html">
+                    <h1>Estudos de matemática</h1>
+                </a>
+            </div>
+
+        </div>
+        </div>
+
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"> </div>
+                <div id="bar2" class="bar"> </div>
+                <div id="bar3" class="bar"> </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="estatisticas.html">Estatística</a></li>
+                    <li><a href="geometria.html">Geometria</a></li>
+                    <li><a href="graficos.html">Gráficos</a></li>
+                    <li><a href="porcentagem.html">Porcentagem</a></li>
+                    <li><a href="prismas.html">Prismas</a></li>
+                    <li><a href="trigonometria.html">Trigonometria</a></li>
+                    <li><a href="Sambaquis.html">Sambaqui</a></li>
+                    <li><a href="form.html">Contate-nos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"> </div>
+
+        <script>
+            function menuOnClick() {
+                document.getElementById("menu-bar").classList.toggle("change");
+                document.getElementById("nav").classList.toggle("change");
+                document.getElementById("menu-bg").classList.toggle("change-bg");
+            }
+        </script>
+    </header>
+    <main>
+        
+        
+    <form>
+        <h1 id="contato">Contate-nos!</h1>
+        <fieldset >
+            <div id="espaçamento-cima-form">
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" id="nome" class="espaco-select"  placeholder="Insira seu nome">
+            <label for="email"><strong>E-mail:</strong></label>
+            <input type="text" id="email"  placeholder="Insira seu e-mail"> 
+        </div>
+        </fieldset>
+        <div>
+        <fieldset >
+            <p class="titulo-pergunta"><strong>Onde nos conheceu?</strong></p>
+            <input type="checkbox" id="rs">
+            <label for="rs" class="espaco-select">Redes Sociais</label>
+            <input type="checkbox" id="escola">
+            <label for="escola" class="espaco-select">Escola</label>
+            <input type="checkbox" id="amigos">
+            <label for="amigos" class="espaco-select">Amigos</label>
+            <input type="checkbox" id="internet">
+            <label for="internet" class="espaco-select">Internet</label>
+        </div>
+        </fieldset>
+        <fieldset>
+            <p><strong>Mensagem:</strong></p>
+            <label for="mensagem"></label>
+            <input type="text" id="mensagem" class="mensagem"  placeholder="Escreva sua mensagem">
+        </fieldset>
+        <div >
+            <input type="radio" id="urgente">
+            <label for="urgente">Urgente?</label>
+        </div>
+        <input type="submit" id="form-submit-button">
+    </form>
+</main>
+</body>
+
+</html>

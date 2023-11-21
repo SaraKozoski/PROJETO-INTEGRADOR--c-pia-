@@ -131,7 +131,7 @@ header {
 
 .change-bg {
   width: 30%;
-  height: 70%;
+  height: 80%;
   transform: translate(-60%, -30%);
 }
 
@@ -200,4 +200,94 @@ main{
 
 a{
   color: rgb(255, 255, 255);
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 2950px) {
+
+  body{
+    font-size: 25px;
+  }
+
+  .change-bg {
+    width: 20%;
+    height: 45%;
+    transform: translate(-60%, -30%);
+  }
+}
+
+@media (max-width: 1762px){
+  .change-bg {
+    width: 30%;
+    height: 45%;
+    transform: translate(-60%, -30%);
+  }
+}
+
+@media (max-width: 1054px){
+  .change-bg {
+    width: 40%;
+    height: 45%;
+    transform: translate(-60%, -30%);
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  #img1-graficos{
+    width: 80%;
+  }
+}
+
+@media (max-width: 922px){
+  h1{
+    font-size: 30px;
+  }
+  .logo {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 778px){
+  .change-bg {
+    width: 50%;
+    height: 45%;
+    transform: translate(-60%, -30%);
+  }
+  h1{
+    font-size: 25px;
+  }
+  body{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 598px){
+  .logo {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 18px;
+  }
+  .titulo-site{
+    font-family: agdasima, sans-serif, bold;
+    font-size: 30px;
+  }
+  .change-bg {
+    width: 65%;
+    height: 40%;
+    transform: translate(-60%, -30%);
+  }
+  h1{
+    font-size: 22px;
+  }
+  h2{
+    font-size: 19px;
+  }
+  body{
+    font-size: 18px;
+  }
 }
