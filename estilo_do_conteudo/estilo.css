@@ -131,7 +131,7 @@ header {
 
 .change-bg {
   width: 30%;
-  height: 90%;
+  height: 80%;
   transform: translate(-60%, -30%);
 }
 
@@ -216,7 +216,7 @@ a{
 
   .change-bg {
     width: 30%;
-    height: 90%;
+    height: 80%;
     transform: translate(-60%, -30%);
   }
 }
@@ -224,7 +224,7 @@ a{
 @media (max-width: 1762px){
   .change-bg {
     width: 30%;
-    height: 90%;
+    height: 65%;
     transform: translate(-60%, -30%);
   }
 }
@@ -236,7 +236,7 @@ a{
 @media (max-width: 1054px){
   .change-bg {
     width: 40%;
-    height: 90%;
+    height: 65%;
     transform: translate(-60%, -30%);
   }
 
@@ -263,7 +263,7 @@ a{
 @media (max-width: 778px){
   .change-bg {
     width: 60%;
-    height: 80%;
+    height: 60%;
     transform: translate(-60%, -30%);
   }
   h1{
@@ -304,7 +304,7 @@ a{
 @media (max-width: 598px){
   .change-bg {
     width: 70%;
-    height: 80%;
+    height: 60%;
     transform: translate(-60%, -30%);
   }
   .logo {
@@ -330,7 +330,7 @@ a{
 @media (max-width: 522px){
   .change-bg {
     width: 80%;
-    height: 80%;
+    height: 60%;
     transform: translate(-60%, -30%);
   }
   .logo {
@@ -351,5 +351,13 @@ a{
   }
   img{
     width: 95%;
+  }
+}
+
+@media (max-width: 400px){
+  .change-bg {
+    width: 90%;
+    height: 60%;
+    transform: translate(-60%, -30%);
   }
 }
