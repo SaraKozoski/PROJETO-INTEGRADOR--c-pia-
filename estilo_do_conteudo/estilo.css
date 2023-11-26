@@ -356,8 +356,9 @@ a{
 
 @media (max-width: 400px){
   .change-bg {
-    width: 90%;
-    height: 60%;
+    width: 98%;
+    height: 70%;
     transform: translate(-60%, -30%);
   }
 }
+
